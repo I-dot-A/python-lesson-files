@@ -127,8 +127,8 @@ print(nums[-1], "nums[-1]") # Prints from the last index of the list
 print(nums[-2], "nums[-2]") # Prints from the second-to-last index
 
 # Adding lists together
-words = ["apple", "banana", "2018 Toyota RAV4"]
-names = ["Neil", "Kenny", "Peter Griffin", "Solid Snake", "Joe"]
+words = ["apple", "banana", "1999 Toyota Corrolla"]
+names = ["Greg", "Aaron", "Peter Griffin", "Solid Snake", "Joe"]
 
 # Using '+'
 stuff = words + names

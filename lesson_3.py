@@ -62,7 +62,7 @@ for num in set_1: # For every number in set_1
 
 print()
 
-words = {"fork", "spoon", "1999 Toyota Corolla", "pancake", "Neil Pandya"}
+words = {"fork", "spoon", "1999 Toyota Corolla", "pancake", "Johnathan Arbuckle"}
 for word in words:
     print(word)
 
@@ -74,7 +74,7 @@ for num in nums:
 
 print()
 
-dictionary = {"car": "2018 Toyota RAV4", "bus": "913 Buckland-Storrs Express",
+dictionary = {"car": "2000 Honda Pilot", "bus": "Bus 20",
               "plane": "Boeing", "motorcycle": "vroom vroom"}
 
 for item in dictionary:
@@ -92,8 +92,8 @@ while x > 0:
 
 print()
 
-names = ["Kenneth Chow", "Self-Proclaimed Professor Alsubai",
-         "Nell Panda", "Spongebob Squarepants", "Peter Griffin"]
+names = ["Student 1", "Self-Proclaimed Professor Alsubai",
+         "Student 2", "Spongebob Squarepants", "Peter Griffin"]
 
 while names: # Checks if the list is not empty:
     print(names.pop()) # Print each name that gets removed
@@ -185,7 +185,7 @@ def do_thing(**items): # ** indicates an arbitrary keyword argument,
         print(item)
         print(items[item])
 
-do_thing(name = "Kenny", age = "18", hobby = "Valorant")
+do_thing(name = "Jeb", age = "38", hobby = "Basketball")
 # You give it a dictionary of arguments
 
 print()

@@ -4,8 +4,8 @@ class Car: # class [name]:
     # self means that this method or variable is part of this instance
     def __init__(self): # init stands for initialize
         """Constructor"""
-        self.model = "2018 Toyota RAV4" # This is an instance variable because of the self keyword
-        self.color = "dark gray"
+        self.model = "2017 Toyota RAV4" # This is an instance variable because of the self keyword
+        self.color = "silver"
 
     def honk(self): # you need self or it will not work
         print("HONK")

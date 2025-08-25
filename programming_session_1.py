@@ -2,7 +2,7 @@ def iterate(items):
     for item in items:
         print(item)
 
-names = ["Kenny from Street Fighter", "Neil Armstrong", "Professor", "Water Drinker"]
+names = ["Ken from Street Fighter", "Neil Armstrong", "Professor", "Water Drinker"]
 
 iterate(names)
 

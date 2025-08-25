@@ -20,7 +20,7 @@ def IS_answer(L):
             j = j - 1
     return L
 
-# Neil Homework:
+# Homework:
 def insertion_sort (nums):
     for i in range(1, len(nums)):
         while nums[i] < nums[i-1] and i > 0:
